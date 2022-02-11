@@ -15,5 +15,8 @@ Simply run both services with any process manager of your choice. The scraper sc
 ## Maintenance Shutdown
 The HIP portal is shut down between 11pm and 2am every day due to scheduled ongoing maintenance. Make sure to set up a Cron Job to shut down the services between 11pm - 2am.
 
+## Disclaimer
+This little project was made in the span of a couple of hours without any scalability or robustness in mind. Its sole purpose is to provide a quick and dirty way of having information from HIP piped to Discord in a user friendly fashion. 
+
 ## License
 This repository is licensed under the MIT License and thus comes with all of its correlating traits.
