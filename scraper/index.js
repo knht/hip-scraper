@@ -32,7 +32,7 @@ const checkAndNotify = async (page) => {
                 console.log(`Topic "${courseTopic}" couldn't be found in HIP yet OR was already processed! Discarding ...`)
             }
         });
-    }, /*1000 * 60 * 5*/30000);
+    }, 1000 * 60 * 5);
 };
 
 const runner = async () => {
